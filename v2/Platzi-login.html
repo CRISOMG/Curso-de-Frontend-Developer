@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/styles-login.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="header_logo"
+        src="./src/logoPlatziVideo.png"
+        alt="header-logo"
+      />
+    </header>
+    <main class="login">
+      <section class="login-container">
+        <h2 class="login-title">
+          inicia sesion
+        </h2>
+        <form class="login-form">
+          <input class="login-email" type="email" placeholder="correo" />
+          <input
+            class="login-password"
+            type="password"
+            placeholder="contraseña"
+          />
+          <button class="login-button">iniciar sesion</button>
+        </form>
+        <div class="login-remember">
+          <label> <input type="checkbox" />Recuerdame </label>
+          <a href="">olvide mi contraseña</a>
+        </div>
+        <div class="login-socialContainer">
+          <div class="social-login_google">
+            <img class="social-icon" src="src/google-icon.png" alt="Google" />
+            Iniciar sesion con Google
+          </div>
+          <div class="social-login_twitter">
+            <img class="social-icon" src="src/twitter-icon.png" alt="Twitter" />
+            Iniciar sesion con Twitter
+          </div>
+        </div>
+        <section class="login-register">
+          <p>No tienes una cuenta. <a class="login-register_link" href="">Registrate</a></p>
+        </section>
+      </section>
+    </main>
+    <footer class="footer">
+      <a href="">Politicas</a>
+      <a href="">Terminos de uso</a>
+      <a href="">Soporte al cliente</a>
+    </footer>
+  </body>
+</html>
