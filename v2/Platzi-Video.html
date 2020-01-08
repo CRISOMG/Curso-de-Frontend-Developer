@@ -1,124 +1,157 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-16" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-16" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Document</title>
-  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css" />
-</head>
-
-<body>
-  <header class="header">
-    <div class="header_logoContainer">
-      <img class="header_logo" src="./src/logoPlatziVideo.png" alt="" srcset="" />
+  <body>
+    <header class="header">
+      <div class="header_logoContainer">
+        <img
+          class="header_logo"
+          src="./src/logoPlatziVideo.png"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <div class="header_menu">
+        <div class="menu-profile">
+          <img
+            class="menu_profile-logo"
+            src="./src/user-icon.webp"
+            alt=""
+            srcset=""
+          />
+          <p>Perfil</p>
+        </div>
+        <ul class="menu-options">
+          <li>
+            <a href="Not-found.html">Cuenta</a>
+          </li>
+          <li>
+            <a href="Platzi-login.html">Cerrar Sesion</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="background">
+      <section class="seacher">
+        <h2 class="seacher_title">¿Que quieres ver hoy?</h2>
+        <input class="seacher_input" type="text" placeholder="buscar..." />
+      </section>
+      <h2 class="carousel_title">Mi lista</h2>
+      <section class="carousel">
+        <div class="carousel_Container">
+          <div class="carousel_card">
+            <div class="cardContainer">
+              <img
+                class="cardContainer_img"
+                src="./src/pexels-photo-413879.jpeg"
+                alt=""
+              />
+              <div class="itemsContainer">
+                <div class="items_video">
+                  <img class="video_icons" src="./src/play-icon.png" alt="" />
+                  <img class="video_icons" src="./src/plus-icon.png" alt="" />
+                </div>
+                <div class="items_details">
+                  <h4 class="details_title">Titulo Descriptivo</h4>
+                  <h5 class="details_date">2020 14+ 12 minutos</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel_card">
+            <div class="cardContainer">
+              <img
+                class="cardContainer_img"
+                src="./src/pexels-photo-1172207.jpeg"
+                alt=""
+              />
+              <div class="itemsContainer">
+                <div class="items_video">
+                  <img class="video_icons" src="./src/play-icon.png" alt="" />
+                  <img class="video_icons" src="./src/plus-icon.png" alt="" />
+                </div>
+                <div class="items_details">
+                  <h4 class="details_title">Titulo Descriptivo</h4>
+                  <h5 class="details_date">2020 14+ 12 minutos</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel_card">
+            <div class="cardContainer">
+              <img
+                class="cardContainer_img"
+                src="./src/pexels-photo-1427741.jpeg"
+                alt=""
+              />
+              <div class="itemsContainer">
+                <div class="items_video">
+                  <img class="video_icons" src="./src/play-icon.png" alt="" />
+                  <img class="video_icons" src="./src/plus-icon.png" alt="" />
+                </div>
+                <div class="items_details">
+                  <h4 class="details_title">Titulo Descriptivo</h4>
+                  <h5 class="details_date">2020 14+ 12 minutos</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel_card">
+            <div class="cardContainer">
+              <img
+                class="cardContainer_img"
+                src="./src/pexels-photo-789822.jpeg"
+                alt=""
+              />
+              <div class="itemsContainer">
+                <div class="items_video">
+                  <img class="video_icons" src="./src/play-icon.png" alt="" />
+                  <img class="video_icons" src="./src/plus-icon.png" alt="" />
+                </div>
+                <div class="items_details">
+                  <h4 class="details_title">Titulo Descriptivo</h4>
+                  <h5 class="details_date">2020 14+ 12 minutos</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel_card">
+            <div class="cardContainer">
+              <img
+                class="cardContainer_img"
+                src="./src/pexels-photo-904276.jpeg"
+                alt=""
+              />
+              <div class="itemsContainer">
+                <div class="items_video">
+                  <img class="video_icons" src="./src/play-icon.png" alt="" />
+                  <img class="video_icons" src="./src/plus-icon.png" alt="" />
+                </div>
+                <div class="items_details">
+                  <h4 class="details_title">Titulo Descriptivo</h4>
+                  <h5 class="details_date">2020 14+ 12 minutos</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-    <div class="header_menu">
-      <div class="menu-profile">
-        <img class="menu_profile-logo" src="./src/user-icon.webp" alt="" srcset="" />
-        <p>Perfil</p>
-      </div>
-      <ul class="menu-options">
-        <li>
-          <a href="">Cuenta</a>
-        </li>
-        <li>
-          <a href="">Cerrar Sesion</a>
-        </li>
-      </ul>
-    </div>
-  </header>
-  <section class="seacher">
-    <h2 class="seacher_title">¿Que quieres ver hoy?</h2>
-    <input class="seacher_input" type="text" placeholder="buscar..." />
-  </section>
-  <h2 class="carousel_title">Mi lista</h2>
-  <section class="carousel">
-    <div class="carousel_Container">
-      <div class="carousel_card">
-        <div class="cardContainer">
-          <img class="cardContainer_img" src="./src/pexels-photo-413879.jpeg" alt="">
-          <div class="itemsContainer">
-            <div class="items_video">
-              <img class="video_icons" src="./src/play-icon.png" alt="">
-              <img class="video_icons" src="./src/plus-icon.png" alt="">
-            </div>
-            <div class="items_details">
-              <h4 class="details_title">Titulo Descriptivo</h4>
-              <h5 class="details_date">2020 14+ 12 minutos</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel_card">
-        <div class="cardContainer">
-          <img class="cardContainer_img" src="./src/pexels-photo-1172207.jpeg" alt="">
-          <div class="itemsContainer">
-            <div class="items_video">
-              <img class="video_icons" src="./src/play-icon.png" alt="">
-              <img class="video_icons" src="./src/plus-icon.png" alt="">
-            </div>
-            <div class="items_details">
-              <h4 class="details_title">Titulo Descriptivo</h4>
-              <h5 class="details_date">2020 14+ 12 minutos</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel_card">
-        <div class="cardContainer">
-          <img class="cardContainer_img" src="./src/pexels-photo-1427741.jpeg" alt="">
-          <div class="itemsContainer">
-            <div class="items_video">
-              <img class="video_icons" src="./src/play-icon.png" alt="">
-              <img class="video_icons" src="./src/plus-icon.png" alt="">
-            </div>
-            <div class="items_details">
-              <h4 class="details_title">Titulo Descriptivo</h4>
-              <h5 class="details_date">2020 14+ 12 minutos</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel_card">
-        <div class="cardContainer">
-          <img class="cardContainer_img" src="./src/pexels-photo-789822.jpeg" alt="">
-          <div class="itemsContainer">
-            <div class="items_video">
-              <img class="video_icons" src="./src/play-icon.png" alt="">
-              <img class="video_icons" src="./src/plus-icon.png" alt="">
-            </div>
-            <div class="items_details">
-              <h4 class="details_title">Titulo Descriptivo</h4>
-              <h5 class="details_date">2020 14+ 12 minutos</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel_card">
-        <div class="cardContainer">
-          <img class="cardContainer_img" src="./src/pexels-photo-904276.jpeg" alt="">
-          <div class="itemsContainer">
-            <div class="items_video">
-              <img class="video_icons" src="./src/play-icon.png" alt="">
-              <img class="video_icons" src="./src/plus-icon.png" alt="">
-            </div>
-            <div class="items_details">
-              <h4 class="details_title">Titulo Descriptivo</h4>
-              <h5 class="details_date">2020 14+ 12 minutos</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-  <footer class="footer">
-    <a class="footer_links" href="">Terminos de uso</a>
-    <a class="footer_links" href="">Declaracion de privacidad</a>
-    <a class="footer_links" href="">Centro de ayuda</a>
-  </footer>
-</body>
+    <footer class="footer">
+      <a class="footer_links" href="Not-found.html">Terminos de uso</a>
+      <a class="footer_links" href="Not-found.html">Declaracion de privacidad</a>
+      <a class="footer_links" href="Not-found.html">Centro de ayuda</a>
+    </footer>
+  </body>
 </html>
