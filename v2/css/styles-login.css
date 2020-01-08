@@ -149,7 +149,7 @@ body {
   justify-content: start;
 }
 .footer a {
-  font-size: 14px;
+  font-size: 20px;
   padding: 0 20px;
   color: white;
   text-decoration: none;
@@ -159,9 +159,6 @@ body {
   text-decoration: underline;
 }
 @media screen and (max-width:768px){
-  
-}
-@media screen and (max-width:425px){
   
 }
 @media screen and (max-width:425px){
@@ -201,4 +198,7 @@ body {
     font-size: 12px;
     align-items: center;
   }
+}
+@media screen and (max-width:320px){
+  
 }
