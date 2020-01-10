@@ -158,47 +158,70 @@ body {
 .footer a:hover {
   text-decoration: underline;
 }
-@media screen and (max-width:768px){
-  
-}
-@media screen and (max-width:425px){
-  .header{
-  justify-content: center;
+@media screen and (max-width: 768px) {
+  .header {
+    justify-content: center;
   }
-  .login{
+  .login {
     padding: 0;
   }
-  .login-container{
-    background-color: rgba(255, 255, 255, 0.0);
+  .login-container {
+    background-color: rgba(255, 255, 255, 0);
     border: none;
     border-radius: 0;
     width: 100%;
   }
-  .login-form{
+  .login-form {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .header {
+    justify-content: center;
+  }
+  .login {
+    padding: 0;
+  }
+  .login-container {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 0;
+    width: 100%;
+  }
+  .login-form {
     width: 80%;
   }
-  .login-form input{
+  .login-form input {
     width: 100%;
   }
-  .login-form button{
+  .login-form button {
     width: 100%;
   }
-  .login-remember{
+  .login-remember {
     width: 100%;
     height: auto;
     margin-top: 2px;
   }
-  .login-remember label{
+  .login-remember label {
     display: flex;
     align-items: flex-end;
     width: 33%;
     font-size: 14px;
   }
-  .forget-my-password{
+  .forget-my-password {
     font-size: 12px;
     align-items: center;
   }
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer a{
+    text-align: center;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+  }
 }
-@media screen and (max-width:320px){
-  
+@media screen and (max-width: 320px) {
 }

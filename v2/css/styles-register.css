@@ -103,8 +103,32 @@
 .footer a:hover {
   text-decoration: underline;
 }
-@media screen and (max-width:768px){}
-@media screen and (max-width:425px){}
+@media screen and (max-width:768px){
+  .header{
+    justify-content: center;
+  }
+  .registerContainer{
+    padding: 0;
+  }
+  .register{
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background: none;
+  }
+  .register-form{
+    width: 80%;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer a{
+    font-size: 16px;
+    padding: 0;
+  }
+
+}
 @media screen and (max-width:425px){
   .header{
     justify-content: center;
@@ -121,4 +145,7 @@
   .footer a{
     font-size: 16px;
   }
+}
+@media screen and (max-width:320px){
+
 }
